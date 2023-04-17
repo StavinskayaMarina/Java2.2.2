@@ -1,6 +1,6 @@
 public class BmiService {
-    public double calculate(double m, double h) {
-        double result = m / (h * h);
+    public double calculate(double heft, double stature) {
+        double result = heft / (stature * stature);
 
         return result;
     }
